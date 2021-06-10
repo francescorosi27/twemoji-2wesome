@@ -10,7 +10,8 @@ Francesco Rosi
 
 - [Twitter](http://twitter.com/ellekasai)
 
-Code: [MIT License](https://francescorosi.mit-license.org)
+Code: [MIT License](https://francescorosi.mit-license.org)  
+Graphics: [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
 ## Original Author & License
 
