@@ -1,14 +1,18 @@
-Unfortunately, this project is **no longer maintained**.
+# Twe:m::o2:ji 2wes:o2:me
 
-I now have other priorities in my life and no longer have time to update this library. Email me at elle.kasai@gmail.com if you'd like to reach me.
+Like [Twemoji Awesome](https://ellekasai.github.io/twemoji-awesome), but it's maintained.
 
-# :tada: Twemoji Awesome :beer:
-
-Like [Font Awesome](http://fontawesome.io), but for [Twitter Emoji](http://twitter.github.io/twemoji/).
-
-## [View Demo and Documentation &rarr;](http://ellekasai.github.io/twemoji-awesome)
+## [View Demo and Documentation &rarr;](https://francescorosi27.github.io/twemoji-2wesome)
 
 ## Author & License
+
+Francesco Rosi
+
+- [Twitter](http://twitter.com/ellekasai)
+
+Code: [MIT License](https://francescorosi.mit-license.org)
+
+## Original Author & License
 
 Elle Kasai
 
