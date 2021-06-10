@@ -26,3 +26,4 @@ Graphics: [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 [@ellekasai](http://ellekasai.com) - Creator of Twemoji Awesome  
 [@sptndc](https://github.com/sptndc) - Creator of the updated emoji list  
 [@FortAwesome](https://github.com/FortAwesome) - Creators of Font Awesome (which I copied some code from)  
+[@staticallyio](https://github.com/staticallyio) - The CDN that is used to serve the images
