@@ -8,7 +8,7 @@ Like [Twemoji Awesome](https://ellekasai.github.io/twemoji-awesome), but it's ma
 
 Francesco Rosi
 
-- [Twitter](http://twitter.com/ellekasai)
+- [Twitter](https://twitter.com/FrancescoRosi15)
 
 Code: [MIT License](https://francescorosi.mit-license.org)  
 Graphics: [CC-BY](https://creativecommons.org/licenses/by/4.0/).
