@@ -1,0 +1,173 @@
+/*!
+ * Twemoji 2wesome by @francescorosi27 - https://github.com/francescorosi27
+ * License - https://francescorosi.mit-license.org
+ * Original made by @ellekasai - https://ellekasai.github.io/twemoji-awesome
+ * Yes I copied this part from Font Awesome
+ */
+/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@import 'emoji-map';
+
+.twa {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1em 1em;
+}
+.twa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+.twa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.twa-ul > li {
+  position: relative;
+}
+.twa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+.twa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+.twa-pull-left {
+  float: left;
+}
+.twa-pull-right {
+  float: right;
+}
+.twa.twa-pull-left {
+  margin-right: .3em;
+}
+.twa.twa-pull-right {
+  margin-left: .3em;
+}
+.twa-spin {
+  -webkit-animation: twa-spin 2s infinite linear;
+          animation: twa-spin 2s infinite linear;
+}
+.twa-pulse {
+  -webkit-animation: twa-spin 1s infinite steps(8);
+          animation: twa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes twa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+}
+@keyframes twa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+}
+.twa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.twa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.twa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.twa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+.twa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+.twa-flip-both, .twa-flip-horizontal.twa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+:root .twa-rotate-90,
+:root .twa-rotate-180,
+:root .twa-rotate-270,
+:root .twa-flip-horizontal,
+:root .twa-flip-vertical,
+:root .twa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+.twa-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.twa-stack-1x,
+.twa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.twa-stack-1x {
+  line-height: inherit;
+}
+.twa-stack-2x {
+  font-size: 2em;
+}
+.twa-inverse {
+  color: #fff;
+}
+$size-map: (
+  "lg": 1.33,
+  "xs": 0.75,
+  "sm": 0.875,
+  "2x": 2,
+  "3x": 3,
+  "4x": 4,
+  "5x": 5,
+  "6x": 6,
+  "7x": 7,
+  "8x": 8,
+  "9x": 9,
+  "10x": 10
+);
+@each $name, $size in $size-map {
+  .twa-#{$name} {
+    height: 1em * $size;
+    width: 1em * $size;
+    margin: 0 .05em * $size 0 .1em * $size;
+    vertical-align: -0.1em * $size;
+    background-size: 1em * $size 1em * $size;
+  }
+}
+@each $name, $code in $emoji-map {
+  .twa-#{$name} {
+    background-image: url("https://cdn.statically.io/gh/twitter/twemoji/master/assets/svg/#{$code}.svg");
+  }
+}
